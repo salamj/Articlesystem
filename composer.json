@@ -1,0 +1,24 @@
+{
+    "name": "jsalam/articlesystem",
+    "description": "A simple project in php to manage articles",
+    "type": "project",
+    "require": {
+        "php": "^8.1",
+        "bramus/router": "~1.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "license": "mit",
+    "autoload": {
+        "psr-4": {
+            "Jsalam\\Articlesystem\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "salam"
+        }
+    ],
+    "minimum-stability": "dev"
+}
